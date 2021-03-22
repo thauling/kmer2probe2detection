@@ -10,4 +10,8 @@ run: pip install -r requirements.txt in your shell.
 if pip cannot be found, try: conda install -c anaconda pip, then re-run previous pip command
 
 RUNNING THE SOFTWARE
+set parameters in params.py
+type: python main_v4.py makekmerdb (to generate a kmerdb from fasta file(s)
+or type: python main_v4.py makeprobes cdnapadlocks (or rnapadlocks or rnasmfish) to create probes
+
 
