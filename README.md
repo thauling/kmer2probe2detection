@@ -10,7 +10,7 @@ run: pip install -r requirements.txt in your shell.
 if pip cannot be found, try: conda install -c anaconda pip, then re-run previous pip command
 if biopython reports errors and cannot be installed, perform a manual installation of biopython and seqfold:
   conda install -c conda-forge biopython
-  pip install seqfile
+  pip install seqfold
 
 note: kmer2probe2detection requires Python 3.6. or later
 
