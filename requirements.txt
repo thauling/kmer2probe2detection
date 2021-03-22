@@ -1,0 +1,5 @@
+numpy==1.17.4
+pandas==1.2.2
+mygene==3.1.0
+biopython==1.74
+seqfold==0.7.4
