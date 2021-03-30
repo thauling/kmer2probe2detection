@@ -110,15 +110,15 @@ def out2db(mmseqout, symbols, dbout):
 
 ##############################################################################
 ## specify to run code directly 
-import os 
-os.chdir(r'e:')  
-mmseqout = 'unikmers40_out2.txt'
-symbols = 'unikmers40_symbols.txt' 
-dbout = 'unikmers40_sqlite.db'
+#import os 
+#os.chdir(r'e:')  
+#mmseqout = 'unikmers40_out2.txt'
+#symbols = 'unikmers40_symbols.txt' 
+#dbout = 'unikmers40_sqlite.db'
 
       
-print(f'{mmseqout} found. Calculating Tm, GC content, deltaG and parsing results to database')
+#print(f'{mmseqout} found. Calculating Tm, GC content, deltaG and parsing results to database')
 #ref2sym_chunk(mmseqout) ## note: expects d.csv and mmseqout in os.cwd
-print(f'{symbols} created')
-out2db(mmseqout, symbols, dbout)
-print(f'{mmseqout} transferred to databsse')
+#print(f'{symbols} created')
+#out2db(mmseqout, symbols, dbout)
+#print(f'{mmseqout} transferred to databsse')
